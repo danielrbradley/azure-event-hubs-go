@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"strings"
 
-	"github.com/Azure/azure-event-hubs-go/v3"
-	"github.com/Azure/azure-event-hubs-go/v3/persist"
+	eventhub "github.com/danielrbradley/azure-event-hubs-go/v3"
+	"github.com/danielrbradley/azure-event-hubs-go/v3/persist"
 )
 
 func main() {
